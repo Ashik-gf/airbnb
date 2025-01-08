@@ -36,7 +36,7 @@ const ReviewsSections = async ({ id }) => {
                 {
                     reviews.length > 0 ? <div>
                         {
-                            reviews.map((reviewDetail) => <ReviesCard reviews={reviewDetail} />)
+                            reviews.map((reviewDetail, index) => <ReviesCard key={index} reviews={reviewDetail} />)
                         }
                     </div> : <div>No reviews</div>
                 }

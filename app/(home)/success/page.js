@@ -34,7 +34,7 @@ const Success = async ({ searchParams: { hotelId } }) => {
                 <div className="inline-block p-4 bg-green-100 rounded-full mb-6">
                     <FaCheck className="text-green-500 text-xl" />
                 </div>
-                <h1 className="text-3xl font-bold mb-4">Payment Successful!</h1>
+                <h1 className="text-3xl font-bold mb-4">Payment Successful.</h1>
                 <p className="text-zinc-600 mb-8">
                     Your booking has been confirmed. Check your email for details.
                 </p>
@@ -109,7 +109,7 @@ const Success = async ({ searchParams: { hotelId } }) => {
                         <div>
                             <h4 className="font-semibold mb-1">Check your email</h4>
                             <p className="text-zinc-600">
-                                We've sent your confirmation and trip details to your email
+                                We have sent your confirmation and trip details to your email
                                 address.
                             </p>
                         </div>

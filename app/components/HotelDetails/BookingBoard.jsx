@@ -90,7 +90,7 @@ const BookingBoard = ({ reviews, hotelId }) => {
             </button>
 
             <div className="text-center mt-4 text-gray-600">
-                <p>You won't be charged yet</p>
+                <p>You won not be charged yet</p>
             </div>
         </div >
     );

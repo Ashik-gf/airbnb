@@ -87,7 +87,7 @@ const BookingBoard = ({ hotelId }) => {
             </Link>
 
             <div className="text-center mt-4 text-gray-600">
-                <p>You won't be charged yet</p>
+                <p>You wont be charged yet</p>
             </div>
         </div>
     )

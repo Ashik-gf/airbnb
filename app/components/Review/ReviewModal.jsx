@@ -19,7 +19,7 @@ const ReviewModal = () => {
                     </div>
                 </div>
 
-                <!-- Modal Body -->
+                {/* <!-- Modal Body --> */}
                 <div className="p-6">
                     <form className="space-y-6">
                         {/* <!-- Overall Rating --> */}
