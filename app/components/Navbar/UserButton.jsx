@@ -21,10 +21,10 @@ const UserButton = ({ session }) => {
                     <FaBars />
                     {
                         session.user?.image ? <Image
-                            src={session.user.image}
+                            src={session?.user?.image}
                             width={32}
                             height={32}
-                            alt={session.user.name}
+                            alt={session?.user?.name}
                             className=" rounded-full"
                         /> : <span
                             className="bg-zinc-600 w-6 h-6 rounded-full flex items-center justify-center text-xs text-white">
