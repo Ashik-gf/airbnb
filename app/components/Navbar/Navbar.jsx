@@ -6,7 +6,7 @@ import LogoImage from "./LogoImage";
 import Search from "./Search";
 import UserButton from "./UserButton";
 const Navbar = async ({ sideMenu }) => {
-    const session = await auth()
+    const session = await auth() || {}
     console.log(session);
     return (
         <>

@@ -9,7 +9,7 @@ const UserButton = ({ session }) => {
     const modalOpen = () => {
         setOpen(!open)
     }
-    console.log(session);
+
     return (
         <div className="flex items-center space-x-4 relative justify-end">
             <div className="flex space-x-4">
