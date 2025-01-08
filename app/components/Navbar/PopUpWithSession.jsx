@@ -39,7 +39,7 @@ const PopUpWithSession = () => {
 
                 <li
                     onClick={handelLogout}
-                    className="px-3 py-2 text-sm text-zinc-700 transition-all hover:bg-zinc-50 hover:text-zinc-800 hover:pl-4">
+                    className="px-3 py-2 cursor-pointer text-sm text-zinc-700 transition-all hover:bg-zinc-50 hover:text-zinc-800 hover:pl-4">
                     Log Out
                 </li>
 
