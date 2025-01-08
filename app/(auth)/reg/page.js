@@ -24,7 +24,7 @@ const Registations = () => {
                         Log in to Hotel Booking
                     </h2>
                     <p className="text-gray-600 text-sm mt-2">
-                        Welcome back! Let's get you signed in.
+                        Welcome back. Lets get you signed in.
                     </p>
                 </div>
 

@@ -6,7 +6,7 @@ const ReviewModal = () => {
             id="reviewModal"
         >
             <div className="bg-white rounded-2xl w-full max-w-xl mx-4 overflow-hidden">
-                <!-- Modal Header -->
+                {/* <!-- Modal Header --> */}
                 <div className="border-b p-4">
                     <div className="flex justify-between items-center">
                         <h3 className="text-xl font-semibold">Write a review</h3>
