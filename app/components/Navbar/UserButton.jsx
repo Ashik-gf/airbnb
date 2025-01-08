@@ -38,7 +38,7 @@ const UserButton = ({ session }) => {
                 {
                     open && (
                         <div>
-                            {session ? (
+                            {session.user ? (
                                 <PopUpWithSession />
                             ) : (
                                 <PopUp session={session} />

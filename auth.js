@@ -24,7 +24,7 @@ export const {
             async authorize(credentials, req) {
                 if (credentials == null) return null;
                 try {
-                    const user = await userModel.findOne({ email: credentials.email })
+                    const user = await userModel.findOne({ email: credentials.email }) || {}
                     if (user) {
                         const isMatch = await bcrypt.compare(credentials.password, user.password)
                         if (isMatch) {
