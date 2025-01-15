@@ -9,13 +9,14 @@ export const metadata = {
   description: "This is an Priama Project for the next app RO",
 };
 
-export default async function RootLayout({ children }) {
+export default async function RootLayout({ children, modal }) {
   await dbConnection()
   return (
     <html lang="en">
       <body className={inter.className}>
         <Navbar sideMenu={true} />
         <main>
+          {modal}
           {children}
         </main>
       </body>

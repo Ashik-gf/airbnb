@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link";
-const PopUp = ({ session }) => {
+const PopUp = () => {
 
     return (
         <div

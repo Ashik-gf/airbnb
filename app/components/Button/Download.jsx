@@ -3,7 +3,6 @@ import jsPDF from 'jspdf'; // Assuming you've installed jsPDF
 import { FaDownload } from "react-icons/fa6";
 
 const Download = ({ bookingData }) => {
-    console.log(bookingData);
     const handleDownloadReceipt = async () => {
         const margin = 20; // Adjust margins as needed
         let y = margin;
@@ -11,7 +10,6 @@ const Download = ({ bookingData }) => {
             try {
                 // Create a new jsPDF document
                 const doc = new jsPDF();
-
                 // Set document title (optional)
                 doc.text("Hotel Name:", margin, y);
                 y += 10;

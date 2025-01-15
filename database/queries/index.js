@@ -1,6 +1,7 @@
 
 import { amenitiesModel } from "@/app/models/amenities_modal";
 import { bookingModel } from "@/app/models/bookings_model";
+import hotelListModel from "@/app/models/hotelList_modal";
 import { hotelModel } from "@/app/models/hotel_model";
 import { ratingModel } from "@/app/models/rating_model";
 import { reviewModel } from "@/app/models/review_model";
@@ -63,5 +64,25 @@ export async function getBookingByIds(hotelId) {
     } catch (error) {
         console.error("Error in fetching Bookings", error);
         return null;
+    }
+}
+
+
+export async function getAllbooking() {
+    try {
+        const allBooking = await bookingModel.find().lean();
+        return allBooking;
+    } catch (error) {
+        console.error(error.message);
+    }
+}
+
+
+export async function getHotelList() {
+    try {
+        const hotelList = await hotelListModel.find().lean()
+        return hotelList
+    } catch (error) {
+        console.error(error.message);
     }
 }

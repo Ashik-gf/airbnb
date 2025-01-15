@@ -22,7 +22,7 @@ const PopUpWithSession = () => {
     const route = useRouter();
     const handelLogout = () => {
         signOut()
-        Router.push('/login')
+        router.push('/login')
     }
     return (
         <div

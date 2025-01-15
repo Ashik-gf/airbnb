@@ -12,7 +12,7 @@ const Login = () => {
     }
     return (
         <div
-            className=" inset-0 bg-green-500 bg-opacity-50 z-50 flex items-center justify-center" >
+            className=" bg-blue-500 h-screen z-10 flex items-center justify-center" >
             {/* <!-- Modal Container --> */}
             <div
                 className="bg-white rounded-xl shadow-2xl w-96 p-6 relative shadow-black/50">

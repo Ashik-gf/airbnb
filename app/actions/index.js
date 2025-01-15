@@ -10,6 +10,6 @@ export async function login(formData) {
         })
         return response;
     } catch (error) {
-        throw new Error(error);
+        console.error(error.message);
     }
 }
